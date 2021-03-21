@@ -82,14 +82,14 @@ buttons = [
     [
         InlineKeyboardButton(
             text="💫 Add Suneo BOT to your group 💫",
-            url="t.me/grand50_bot?startgroup=true",
+            url="t.me/SuneoManagerbot?startgroup=true",
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [GRAND OFFICIAL](https://telegra.ph/file/4a14aa91d2276be702ae7.jpg)
+*Main Commands :* [Suneo Honekawa](https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg0)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
