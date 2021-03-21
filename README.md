@@ -1,7 +1,8 @@
-# GRAND OFFICIAL 3.8
- GRAND OFFICIAL VERSION 3.8 IS RELEASED 😎😎
+# Suneo Group Manager
+ This is a group manager bot for your group management
+ 😎😎
 
-**You got any error contact me** 👇
+Credits of this bot
 [LEGEND X](https://t.me/legendx22)
 
 # FORK FULL SUPPORT BY LEGEND X
