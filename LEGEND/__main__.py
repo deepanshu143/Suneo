@@ -67,7 +67,7 @@ from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = """
 Hello there, I'm [Suneo](https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg)
 
-I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot Made by [This Person](t.me/MTY_IZ) and I will help in managing your group
+I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot Made by [This Person](https://t.me/MTY_IZ) and I will help in managing your group
 
 ✪ Make sure you read *INFO* Section Below ✪ 
 """
@@ -81,7 +81,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add Suneo BOT to your group 💫",
+            text="💫 Add Suneo to your group 💫",
             url="t.me/SuneoManagerbot?startgroup=true",
         ),
     ],
