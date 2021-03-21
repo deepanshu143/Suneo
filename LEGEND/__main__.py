@@ -65,7 +65,7 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [GRAND OFFICIAL](https://telegra.ph/file/4a14aa91d2276be702ae7.jpg)
+Hello there, I'm [Suneo](https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg)
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
@@ -81,7 +81,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add LEGEND BOT to your group 💫",
+            text="💫 Add Suneo BOT to your group 💫",
             url="t.me/grand50_bot?startgroup=true",
         ),
     ],
