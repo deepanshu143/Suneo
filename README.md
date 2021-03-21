@@ -1,6 +1,6 @@
 # Suneo Group Manager
- This is a group manager bot for your group management
- 😎😎
+ This is a group manager bot for your group
+ 😄😄
 
 Credits of this bot
 [LEGEND X](https://t.me/legendx22)
