@@ -24,7 +24,7 @@ Fir web ko off kro aur worker ko on kro fir agar koi error mile to
 Reveal config vars me jaao port ko delete krdo aur wheebook ko bhi the. WAIT 2-3 aur bot start🥰
 Deploy link 👇
 ```
-# [DEPLOY HERE](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Flegendxop%2FLEGEND-X&template=https%3A%2F%2Fgithub.com%2Flegendxop%2FLEGEND-X)
+# [DEPLOY HERE](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fdeepanshu143%2FSuneo.git)
 </details>
 
 <details>
