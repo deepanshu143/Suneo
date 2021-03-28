@@ -11,6 +11,7 @@ It will be find in telegram as [Suneo Manager](https://t.me/SuneoManagerbot)
 This is the first group manager bot with the
 force subscribe feature which can force your members
 to join a particular channel
+
 # Add This bot in your group
 # Please Read this
 <summary> </summary>
