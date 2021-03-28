@@ -15,11 +15,10 @@ Make your own 👇
 <details>
   <summary> Steps to deploy on Heroku !! </summary>
 
-```
  details, Deploy!
-1st fork kro fir main.py me changes kro fir heroku se manually deploy krlo
-Fir web ko off kro aur worker ko on kro fir agar koi error mile to
-Reveal config vars me jaao port ko delete krdo aur wheebook ko bhi the. WAIT 2-3 aur bot start🥰
+First deploy it then go to the app settings and turn off web and turn on
+the worker Dyno then if you get any error so go to settings
+And remove the port and webhook.
 Deploy link 👇
 ```
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fdeepanshu143%2FSuneo.git)
