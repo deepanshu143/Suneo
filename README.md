@@ -1,14 +1,16 @@
 # Suneo Group Manager
  This is a group manager bot for your group
  😄😄
-<summary> Suneo </summary>
+<summary> </summary>
 <img src="https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg" />
 
 It will be find in telegram as [Suneo Manager](https://t.me/SuneoManagerbot)
 
 # this is the best group manager bot for your group
-# ADD LEGEND X ON DEVLIST
-# PLEASE ADD 😶
+# ADD This bot in your group
+# PLEASE Read this
+   <summary> Read carefully !! </summary>
+We don't own this bot all the credits of the bot is go to respectively to the owner [LEGEND X](t.me/LegendX22)
 # LEGENDX ID `1100231654`
 </details>
 Please read this 👇
