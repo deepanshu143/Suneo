@@ -1,4 +1,4 @@
-#    Copyright (C) 2020-2021 by @LEGENDX22
+#    Copyright (C) 2020-2021 
 #    This programme is a part of LEGEND TG bot project
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -100,7 +100,7 @@ def _check_member(client, message):
             except UserNotParticipant:
                 try:
                     sent_message = message.reply_text(
-                        "Hey  {} 🙏 \n \n **please join @{} Channel Join ** 😭 \n and press**UNMUTE ME** Button touch. \n \n **[👉 OUR CHANNEL 👈](https://t.me/{})**".format(
+                        "Hey  {} 🙏 \n \n **please join @{} Channel Join ** 🙂 \n and press**UNMUTE ME** Button touch. \n \n **[👉 OUR CHANNEL 👈](https://t.me/{})**".format(
                             message.from_user.mention, channel, channel
                         ),
                         disable_web_page_preview=True,
@@ -191,8 +191,8 @@ __help__ = """
 *ForceSubscribe:*
 
 *Channel Manageer Inbuilt*
-✪ ඔයාගෙ ගෲප් එකේ මෙම්බර්ස්ල Channel එකක් හෝ කිහිපයක් Subscribe කරනකන් Message දාන එක නවත්තන්න මට පුලූවන්.
-✪ සාමාජිකයන් ඔබේ Channel  එකට සම්බන්ධ නොවූයේ නම් මම ඔවුන්ව නිශ්ශබ්ද කර channel එකට සම්බන්ධ වන ලෙස පවසන්න සහ බොත්තමක් එබීමෙන් ඔවුන්ව නිශ්ශබ්ද කරන්න මට පුලුවන්.
+✪ hey {} this is a feature name force subscribe it will force your members to join a particular channel.
+✪  if the member will not join the Channel So the member will be muted.
 
 *Setup*
 1) First of all add me in the group as admin with ban users permission and in the channel as admin.
@@ -204,9 +204,9 @@ Note: Only creator of the group can setup me and i will not allow force subscrib
 ✪ /ForceSubscribe {channel username} - To turn on and setup the channel.
 ✪ /ForceSubscribe clear - To unmute all members who muted by me.
 
-Note: /FSub is an LEGENDBOT of /ForceSubscribe
+Note: /FSub is an Suneo of /ForceSubscribe
 
-💭 Only on LEGENDBOT yet
+💭 Only on Suneo bot yet
  
 """
 __mod_name__ = "📢 Force Subscribe 💭"
