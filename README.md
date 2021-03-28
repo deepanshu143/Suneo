@@ -9,13 +9,11 @@ It will be find in telegram as [Suneo Manager](https://t.me/SuneoManagerbot)
 # this is the best group manager bot for your group
 # ADD This bot in your group
 # PLEASE Read this
-   <summary> Read carefully !! </summary>
-We don't own this bot all the credits of the bot is go to respectively to the owner [LEGEND X](t.me/LegendX22)
-# LEGENDX ID `1100231654`
-</details>
-Please read this 👇
+<summary> Read carefully !! </summary>
+We don't own this bot all the credits of the bot is go to respectively to the owner and please don't ask for how to make bot like this</details>
+Make your own 👇
 <details>
-  <summary>Steps to deploy on Heroku !! </summary>
+  <summary> Steps to deploy on Heroku !! </summary>
 
 ```
  details, Deploy!
