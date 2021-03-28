@@ -8,8 +8,12 @@ It will be find in telegram as [Suneo Manager](https://t.me/SuneoManagerbot)
 
 # This is the best group manager bot for your group
 # Add This bot in your group
-# PLEASE Read this
-<summary> Read carefully !! </summary>
+<summary> </summary>
+This is the first group manager bot with the
+force subscribe feature which can force your members
+to join a particular channel
+# Please Read this
+<summary> </summary>
 We don't own this bot all the credits of the bot is go to respectively to the owner and please don't ask for how to make bot like this </details>
 Make your own 👇
 <details>
