@@ -15,6 +15,7 @@ Make your own 👇
 <details>
   <summary> Steps to deploy on Heroku !! </summary>
 
+```
  details, Deploy!
 First deploy it then go to the app settings and turn off web and turn on
 the worker Dyno then if you get any error so go to settings
