@@ -13,9 +13,9 @@ force subscribe feature which can force your members
 to join a particular channel
 
 # Add This bot in your group
-# Please Read this
+# Make your own
 <summary> </summary>
-We don't own this bot all the credits of the bot is go to respectively to the owner and please don't ask for how to make bot like this </details>
+Deploy Now
 Make your own 👇
 <details>
   <summary> Steps to deploy on Heroku !! </summary>
