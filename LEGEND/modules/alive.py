@@ -13,8 +13,8 @@
 from telethon import events, Button, custom
 import re, os
 from LEGEND.events import register
-from LEGEND import xbot as tbot
-from LEGEND import xbot as tgbot
+from LEGENDX import xbot as tbot
+from LEGENDX import xbot as tgbot
 PHOTO = "https://telegra.ph/file/3cc3e9ab5ff0456671ac4.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
