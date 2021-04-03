@@ -8,13 +8,13 @@
 It will be find in telegram as [Suneo Manager](https://t.me/SuneoManagerbot)
 
 # This is the best group manager bot for your group
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fdeepanshu143%2FSuneo.git)
 <summary> </summary>
 This is the first group manager bot with the
 force subscribe feature which can force your members
 to join a particular channel
 
 # Add This bot in your group
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fdeepanshu143%2FSuneo.git)
 # Make your own
 <summary> </summary>
 Deploy Now
