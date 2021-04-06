@@ -24,9 +24,9 @@ Make your own 👇
 
 ```
  details, Deploy!
-First deploy it then go to the app settings and turn off web and turn on
+First deploy it then turn off web and turn on
 the worker Dyno then if you get any error so go to settings
-And remove the port and webhook.
+And remove port and webhook.
 Deploy link 👇
 ```
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fdeepanshu143%2FSuneo.git)
