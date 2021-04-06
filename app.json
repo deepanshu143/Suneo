@@ -8,7 +8,7 @@
          "manager",
          "LEGEND"
       ],   
-   "repository": "https://github.com/LEGENDXOP/LEGEND-X",
+   "repository": "https://github.com/deepanshu143/Suneo",
    "addons": [
       {
          "options": {
@@ -59,16 +59,16 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1100231654"
+         "value": "1173473971"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "LEGENDX22"
+         "value": "MTY_IZ"
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
+         "description": "Your Telegram support group chat username without @ where your users will go and bother you with shit . If this ever points to suneo support than consider you made an enemy.",
          "required": true,
-         "value": "LEGEND_USERBOT_SUPPORT"
+         "value": ""
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -93,7 +93,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Legend support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1100231654"
+         "value": "1173473971"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -104,25 +104,25 @@
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
          "value": "True"
       },
-      "DRAGONS": {
+      "SUDO USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1100231654"
+         "value": "1173473971"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1100231654"
+         "value": "1173473971"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": "1100231654"
+         "value": "1173473971"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1100231654"
+         "value": "1173473971"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -168,7 +168,7 @@
       },
       "AI_API_KEY": {
       "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
-         "required": false,
+         "required": true,
          "value": ""
    },      
       "BAN_STICKER": {
@@ -189,6 +189,6 @@
       "manager",
       "GRAND"
    ],
-   "name": "GRAND OFFICIAL",
-   "repository": "https://github.com/LEGENDXOP/LEGEND-X"
+   "name": "SUNEO MANAGER",
+   "repository": "https://github.com/deepanshu143/Suneo"
 }
