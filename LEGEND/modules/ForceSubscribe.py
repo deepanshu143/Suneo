@@ -100,7 +100,7 @@ def _check_member(client, message):
             except UserNotParticipant:
                 try:
                     sent_message = message.reply_text(
-                        "Hey  {} 🙏 \n \n **You have not join @{} Channel First Join ** 🙂 \n and press **UNMUTE ME** Button. \n \n **[👉 OUR CHANNEL 👈](https://t.me/{})**".format(
+                        "Hey  {} 🙏 \n \n **You have not join @{} Channel First Join ** 🙂 \n and press **UNMUTE ME** Button. \n \n **[JOIN OUR CHANNEL](https://t.me/{})**".format(
                             message.from_user.mention, channel, channel
                         ),
                         disable_web_page_preview=True,
