@@ -1,6 +1,6 @@
 {
       "name": "SUNEO MANAGER",
-      "description": "An OP Telegram Group manager bot.",
+      "description": "An OP Telegram Group Management bot.",
       "keywords": [
          "telegram",
          "anime",
@@ -169,7 +169,7 @@
       "AI_API_KEY": {
       "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
          "required": true,
-         "value": ""
+         "value": "x_y_z"
    },      
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
