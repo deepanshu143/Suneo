@@ -193,6 +193,10 @@ if is_module_loaded(FILENAME):
         return "No log channel is set for this group!"
 
     __help__ = """
+Recent actions are nice, but they don't help you log every action taken by the bot. This is why you need log channels!
+
+Log channels can help you keep track of exactly what the other admins are doing. Bans, Mutes, warns, notes - everything can be moderated.
+
 *Admins only:*
 ✪ /logchannel*:* get log channel info
 ✪ /setlog*:* set the log channel.
