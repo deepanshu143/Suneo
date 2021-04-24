@@ -101,6 +101,7 @@ HELP_STRINGS = f"""
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
+LEGEND_IMG = "https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
