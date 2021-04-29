@@ -10,6 +10,8 @@ It will be find in telegram as [Suneo Manager](https://t.me/SuneoManagerbot)
 # This is the best group manager bot for your group
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fdeepanshu143%2FSuneo.git)
 <summary> </summary>
+# It has may features
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 This bot has the
 force subscribe feature which can force your members
 to join a particular channel
