@@ -68,7 +68,7 @@ from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = """
 Hello , I'm [Suneo](https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg)
 
-I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot Made by [This Person](https://t.me/{OWNER_USERNAME}) and I will help in managing your group.You can find the list of available commands with /help
+I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot Made by [This Person](https://t.me/MTY_IZ) and I will help in managing your group.You can find the list of available commands with /help
 
 ✪ Don't forget to join our [Updates Channel](https://t.me/SuneoAndLucarioUpdates) to get new updates about me ✪ 
 """
