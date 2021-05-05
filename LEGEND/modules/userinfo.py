@@ -292,7 +292,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
     elif user.id in DEV_USERS:
 
-        text += "\n\nThis user is member of 'TEAMLEGEND'."
+        text += "\n\nThis user is member of 'TEAM'."
         disaster_level_present = True
     elif user.id in DRAGONS:
         text += "\n\nThe Disaster level of this person is 'Dragon'."
@@ -309,7 +309,7 @@ def info(update: Update, context: CallbackContext):
 
     if disaster_level_present:
 
-        text += ' [<a href="https://t.me/SuneoSupportchannel/11">?</a>]'.format(bot.username)
+        text += ' [<a href="https://t.me/SuneoAndLucarioUpdates/11">?</a>]'.format(bot.username)
 
     try:
         user_member = chat.get_member(user.id)
