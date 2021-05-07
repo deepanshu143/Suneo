@@ -309,7 +309,7 @@ def info(update: Update, context: CallbackContext):
 
     if disaster_level_present:
 
-        text += ' [<a href="https://t.me/SuneoAndLucarioUpdates/11">?</a>]'.format(bot.username)
+        text += ' [<a href="https://t.me/SuneoAndLucarioUpdates/13">?</a>]'.format(bot.username)
 
     try:
         user_member = chat.get_member(user.id)
