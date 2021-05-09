@@ -74,6 +74,6 @@ async def inline_id_handler(event: events.InlineQuery.Event):
 
 __mod_name__="YouTube"
 __help__ = """
- - `@grand50_bot yt <search your query> ;8`
+ - `@SuneoManagerbot yt <search your query> ;8`
     Use ; this as result stopper
 """
