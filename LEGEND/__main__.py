@@ -84,6 +84,11 @@ buttons = [
         InlineKeyboardButton(
             text="💫 Add Suneo to your group 💫",
             url="t.me/SuneoManagerbot?startgroup=true",
+    ]
+    [
+        InlineKeyboardButton(
+            text="🔔 Updates Channel",
+            url="t.me/SuneoAndLucarioUpdates",
         ),
     ],
 ]
@@ -364,7 +369,7 @@ def LEGEND_about_callback(update, context):
         query.message.edit_text(
             text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You know I'm a next generational group management bot Developed by @LEGENDX22.* "
             f"\n\n 🔥 Join [OUR UPDATES CHANNEL](https://t.me/SuneoAndLucarioUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
-            f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
+            f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the Gbanning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
             parse_mode=ParseMode.MARKDOWN,
