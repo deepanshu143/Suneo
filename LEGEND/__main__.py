@@ -84,11 +84,6 @@ buttons = [
         InlineKeyboardButton(
             text="💫 Add Suneo to your group 💫",
             url="t.me/SuneoManagerbot?startgroup=true",
-    ],
-    [        
-        InlineKeyboardButton(
-            text="🔔 Updates Channel",
-            url="t.me/SuneoAndLucarioUpdates",
         ),
     ],
 ]
