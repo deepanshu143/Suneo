@@ -7,18 +7,18 @@
 
 It can be find in telegram as [Suneo Manager](https://t.me/SuneoManagerbot)
 
-# This is the best group manager bot for your group
+# This Easiest way
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fdeepanshu143%2FSuneo.git)
 <summary> </summary>
 This bot has the
 force subscribe feature which can force your members
 to join a particular channel
 
-# Add This bot in your group
+# Add legend X in devlist his id 1667146381
 # Make your own
 <summary> </summary>
 Deploy Now
-Make your own 👇
+Follow all steps 👇
 <details>
   <summary> Steps to deploy on Heroku !! </summary>
 
