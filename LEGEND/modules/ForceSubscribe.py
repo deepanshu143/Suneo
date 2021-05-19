@@ -191,8 +191,8 @@ __help__ = """
 *ForceSubscribe:*
 
 *Channel Manageer Inbuilt*
-✪ hey {} this is a feature name force subscribe it will force your members to join a particular channel.
-✪  if the member will not join the Channel So the member will be muted.
+✪ If you don't want peoples to speak in your group without joining your channel.
+✪ So you can use this force subscribe feature it can force your members to join a particular channel. Just read the setup to setup this
 
 *Setup*
 1) First of all add me in the group as admin with ban users permission and in the channel as admin.
