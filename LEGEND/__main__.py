@@ -65,10 +65,8 @@ from LEGEND.modules.helper_funcs.chat_status import is_user_admin
 from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
-legendx = event.sender.first_name
-
 PM_START_TEXT = """
-Hello {legendx} , I'm [Suneo](https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg)
+Hello , I'm [Suneo](https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg)
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot Made by [This Person](https://t.me/MTY_IZ) and I will help in managing your group.You can find the list of available commands with /help
 
