@@ -83,7 +83,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="💫 Add Suneo to your group 💫",
-            url="t.me/SuneoManagerbot?startgroup=true",
+            url="t.me/{}?startgroup=true".format(context.bot.username))
         ),
     ],
 ]
@@ -102,11 +102,11 @@ HELP_STRINGS = f"""
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-TECHNO_IMG = "https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg"
+LEGEND_IMG = "https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [N](t.me/teamishere,[LEGEND BOT](t.me/teamishere),"""
+Support them Via [PayPal](https://paypal.me/PaulSonOfLars),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
