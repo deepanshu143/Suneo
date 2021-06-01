@@ -83,7 +83,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="💫 Add Suneo to your group 💫",
-            url="t.me/SuneoManagerbot?startgroup=true",
+            url="t.me/{bot.username}?startgroup=true",
         ),
     ],
 ]
