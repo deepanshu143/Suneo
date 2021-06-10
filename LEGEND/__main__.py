@@ -66,11 +66,11 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello , I'm [Suneo](https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg)
+Hello , I'm [Disney Team Suneo Bot](https://telegra.ph/file/f7355bc6002e744effe94.jpg)
 
-I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot Made by [This Person](https://t.me/MTY_IZ) and I will help in managing your group.You can find the list of available commands with /help
+I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot Made by [Doreamonfans](https://t.me/doreamonfans2) and I will help in managing your group.You can find the list of available commands with /help
 
-✪ Don't forget to join my [Updates Channel](https://t.me/SuneoAndLucarioUpdates) to get new updates about me ✪ 
+✪ Don't forget to join my [Updates Channel](https://t.me/disneygrou) to get new updates about me ✪ 
 """
 
 buttons = [
@@ -83,14 +83,14 @@ buttons = [
     [
         InlineKeyboardButton(
             text="💫 Add Suneo to your group 💫",
-            url="t.me/SuneoManagerbot?startgroup=true",
+            url="t.me/disneyteamsuneobot?startgroup=true",
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [Suneo Honekawa](https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg0)
+*Main Commands :* [Suneo Honekawa](https://telegra.ph/file/f7355bc6002e744effe94.jpg0)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -102,11 +102,11 @@ HELP_STRINGS = f"""
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-LEGEND_IMG = "https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg"
+LEGEND_IMG = "https://telegra.ph/file/f7355bc6002e744effe94.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them Via [PayPal](https://paypal.me/PaulSonOfLars),"""
+Support them Via [PayPal](https://paypal.me/doreamonfans1),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -362,11 +362,11 @@ def LEGEND_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You know I'm a next generational group management bot Developed by @LEGENDX22.* "
+            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You know I'm a next generational group management bot Developed by @doreamonfans2.* "
             f"\n\n 🔥 Join [OUR UPDATES CHANNEL](https://t.me/SuneoAndLucarioUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the Gbanning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg)"
-            f"\n\n👇 To get the source code of this bot use /repo or [press me](https://github.com/deepanshu143/suneo) 👇",
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/f7355bc6002e744effe94.jpg)"
+            f"\n\n👇 To get the source code of this bot contact owner [press me](https://t.me/doreamonfans2) 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -400,7 +400,7 @@ def LEGEND_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [support](https://t.me/Mvdiscuss).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [support](https://t.me/disneyteamchat).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -421,8 +421,8 @@ def LEGEND_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [LEGEND X](https://github.com/LEGENDXOP)."
-            f"\n\n{dispatcher.bot.first_name}'s source code was rewritten by @MTY_IZ"
+            f"\n\nBased on [Doreamon fans](https://t.me/doreamonfans1)."
+            f"\n\n{dispatcher.bot.first_name}'s source code was written by @doreamonfans2"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -479,8 +479,8 @@ def LEGEND_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @LEGENDX22 spending many sleepless nights.. So, Respect it."
-            f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
+            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @doreamonfans2 spending many sleepless nights.. So, Respect it."
+            f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>doreamonfans for Marie</b>."
             f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
