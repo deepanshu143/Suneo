@@ -1,11 +1,11 @@
 # COPYRIGHT (C) 2021 BY LEGENDX22 AND PROBOYX
 
 """
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-                 MADE BY LEGENDX AND PROBOYX
+(((((((((((((((((((((((@doreamonfans1)))))))))))))))))))))))))))
+(((((((((((((((((((((((@doreamonfans2)))))))))))))))))))))))))))
+(((((((((((((((((((((((@doreamonfans4)))))))))))))))))))))))))))
+(((((((((((((((((((((((@doreamonfans5)))))))))))))))))))))))))))
+                 MADE BY Doreamonfans
                    CREDITS #TEAMLEGEND 
                 PLEASE DON'T REMOVE CREDITS
 """
@@ -15,7 +15,7 @@ import re, os
 from LEGEND.events import register
 from LEGEND import telethn as tbot
 from LEGEND import telethn as tgbot
-PHOTO = "https://telegra.ph/file/3cc3e9ab5ff0456671ac4.jpg"
+PHOTO = "https://telegra.ph/file/f7355bc6002e744effe94.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
   legendx = event.sender.first_name
@@ -26,9 +26,9 @@ async def awake(event):
   LEGENDX += "FULLY UPDATED\n\n"
   LEGENDX += "TELETHON : 1.19.5 LATEST\n\n"
   LEGENDX += "THANKS FOR ADD ME HERE"
-  BUTTON = [[Button.url("OWNER", "https://t.me/MTY_IZ"), Button.url("MASTER", "https://t.me/LEGENDX22")]]
+  BUTTON = [[Button.url("OWNER", "https://t.me/doreamonfans2"), Button.url("MASTER", "https://t.me/doreamonfans1")]]
   BUTTON += [[custom.Button.inline("REPOSITORYS", data="LEGENDX")]]
-  await tbot.send_file(event.chat_id, PHOTO, caption=LEGENDX,  buttons=BUTTON)
+  await tbot.send_file(event.chat_id, PHOTO, caption=Doreamonfans,  buttons=BUTTON)
 
 
 
@@ -36,11 +36,9 @@ async def awake(event):
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"LEGENDX")))
 async def callback_query_handler(event):
 # inline by LEGENDX22 and PROBOYX🔥
-  PROBOYX = [[Button.url("REPO-SUNEO", "https://github.com/Deepanshu143/Suneo"), Button.url("REPO-ULTRA-X", "https://github.com/ULTRA-OP/ULTRA-X")]]
-  PROBOYX +=[[Button.url("DEPLOY-SUNEO", "https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fdeepanshu143%2FSuneo.git"), Button.url("DEPLOY-ULTRA-X", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FULTRA-OP%2FHEROKU&template=https%3A%2F%2Fgithub.com%2FULTRA-OP%2FHEROKU")]]
-  PROBOYX +=[[Button.url("TUTORIAL", "https://youtu.be/rGCSSFPsS4Q"), Button.url("STRING-SESSION", "https://repl.it/@legendx22/LEGEND-BOT#main.py")]]
-  PROBOYX +=[[Button.url("API_ID & HASH", "https://t.me/usetgxbot"), Button.url("REDIS", "https://redislabs.com")]]
-  PROBOYX +=[[Button.url("SUPPORT CHANNEL", "https://t.me/LEGENDBOT_OFFICIAL"), Button.url("SUPPORT GROUP", "https://t.me/LEGEND_USERBOT_SUPPORT")]]
+  PROBOYX = [[Button.url("owner 1", "https://t.me/doreamonfans1"), Button.url("owner 2", "https://t.me/doreamonfans2")]]
+  PROBOYX +=[[Button.url("owner 3", "https://t.me/doreamonfans4"), Button.url("owner 4","https://t.me/doreamonfans5)]]
+  PROBOYX +=[[Button.url("UPDATES CHANNEL", "https://t.me/disneygrou"), Button.url("SUPPORT GROUP", "https://t.me/disneyteamchat")]]
   PROBOYX +=[[custom.Button.inline("ALIVE", data="PROBOY")]]
   await event.edit(text=f"ALL DETAILS OF REPOS", buttons=PROBOYX)
 
@@ -57,15 +55,15 @@ async def callback_query_handler(event):
   LEGENDX += "FULLY UPDATED BOT\n\n"
   LEGENDX += "TELETHON : 1.19.5 LATEST\n\n"
   LEGENDX += "THANKS FOR ADD ME HERE"
-  BUTTONS = [[Button.url("MASTER", "https://t.me/LEGENDX22"), Button.url("DEVLOPER", "https://t.me/proboyx")]]
+  BUTTONS = [[Button.url("MASTER", "https://t.me/doreamonfans2"), Button.url("DEVLOPER", "https://t.me/doreamonfans1")]]
   BUTTONS += [[custom.Button.inline("REPOSITORYS", data="LEGENDX")]]
   await event.edit(text=LEGENDX, buttons=BUTTONS)
 
 
 @register(pattern=("/repo|/REPO"))
 async def repo(event):
-  await tbot.send_message(event.chat, "REPO OF SUNEO MANAGER", buttons=[[Button.url("⚜️REPO⚜️", "https://github.com/deepanshu143/Suneo")]])
-# PROBOYX 🔥 LEGENDX22
+  await tbot.send_message(event.chat, "REPO OF SUNEO MANAGER AS OWNER", buttons=[[Button.url("⚜️OWNER⚜️", "https://t.me/doreamonfans2")]])
+# PROBOYX 🔥 Doreamonfans
 
 __help__ = """
  - /alive check bot alive or die
