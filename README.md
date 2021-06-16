@@ -8,7 +8,6 @@
 It can be find in telegram as [Suneo Manager](https://t.me/SuneoManagerbot)
 
 # This Easiest way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fdeepanshu143%2FSuneo.git)
 <summary> </summary>
 This bot has the
 force subscribe feature which can force your members
@@ -29,5 +28,4 @@ the worker Dyno then if you get any error so go to settings
 And remove port and webhook.
 Deploy link 👇
 ```
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fdeepanshu143%2FSuneo.git)
-</details>
+
