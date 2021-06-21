@@ -66,25 +66,30 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello , I'm [Suneo](https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg)
-
-I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot Made by [This Person](https://t.me/MTY_IZ) and I will help in managing your group.You can find the list of available commands with /help
-
-✪ Don't forget to join my [Updates Channel](https://t.me/SuneoAndLucarioUpdates) to get new updates about me ✪ 
+Hello, I'M [Suneo](https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg)
+I am here to help you manage your groups!
+Maintained by @MTY_IZ
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
-    ],
-    [
-        InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
-    ],
-    [
         InlineKeyboardButton(
-            text="💫 Add Suneo to your group 💫",
-            url="t.me/SuneoManagerbot?startgroup=true",
+            text="➕️ Add me to your group ➕️", url="t.me/SuneoManagerbot?startgroup=true"),
+    ],
+    [
+        InlineKeyboardButton(text="Info 💬", callback_data="aboutmanu_"),
+        InlineKeyboardButton(
+            text="Support", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
+    ],
+    [
+        InlineKeyboardButton(text="Logs", url=f"https://t.me/Suneologs"),
+        InlineKeyboardButton(
+            text="Updates 🔔", url=f"https://t.me/SuneoAndLucarioUpdates"
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="Help and Commands❔", callback_data="help_back"),
     ],
 ]
 
