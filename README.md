@@ -9,9 +9,7 @@ It can be find in telegram as [Suneo Manager](https://t.me/SuneoManagerbot)
 
 # This Easiest way
 <summary> </summary>
-This bot has the
-force subscribe feature which can force your members
-to join a particular channel
+Heroku Support has been removed 😂😂 now you can't deploy it
 
 # Add legend X in devlist his id 1667146381
 # Make your own
