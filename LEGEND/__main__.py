@@ -68,22 +68,43 @@ from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = """
 Hello , I'm [Suneo](https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg)
 
-I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot Made by [This Person](https://t.me/MTY_IZ) and I will help in managing your group.You can find the list of available commands with /help
+I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot Made by [This Person](https://t.me/MTY_IZ) and I will help in managing your group.You can find the list of available commands with /help. Inspired from SaitamaRobot ❤️. specialize in managing anime and similar themed groups.
 
 ✪ Don't forget to join my [Updates Channel](https://t.me/SuneoAndLucarioUpdates) to get new updates about me ✪ 
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
-    ],
-    [
-        InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
+        InlineKeyboardButton(
+            text="➕️ ADD Suneo TO YOUR GROUP ➕️",url="t.me/SuneoManagerbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add Suneo to your group 💫",
-            url="t.me/SuneoManagerbot?startgroup=true",
+              text="🔐 Command & Help", callback_data="help_back"),
+     
+    ],
+    [     InlineKeyboardButton(
+            text="🎦 Chatting Group", url="https://t.me/Mvdiscuss"),
+    
+    ],
+    [
+        InlineKeyboardButton(
+            text="📮 Update Channel", url="https://telegram.dog/EldianGabi_UpdateChannel"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="📑 Logs", url="https://t.me/SuneoLogs"),
+          
+
+
+InlineKeyboardButton(
+            text="🐱 SUPPORT", url="https://t.me/SuneoAndLucarioUpdates"
+        ),
+
+    ],
+    [
+        InlineKeyboardButton(
+                    text="🗄️ Source Code", url="https://github.com/Deepanshu143/Suneo"
         ),
     ],
 ]
