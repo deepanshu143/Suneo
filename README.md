@@ -7,6 +7,10 @@
 
 It can be find in telegram as [Suneo Manager](https://t.me/SuneoManagerbot)
 
+* Updates:
+
+<a href="https://t.me/SuneoAndLucarioUpdates"> <img src="https://i.imgur.com/STym7qc.png" /></a>
+
 # This Easiest way
 <summary> </summary>
 Heroku Support has been removed 😂😂 now you can't deploy it
