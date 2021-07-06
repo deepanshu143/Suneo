@@ -84,7 +84,7 @@ buttons = [
      
     ],
     [     InlineKeyboardButton(
-            text="🎦 Chatting Group", url="https://t.me/Mvdiscuss"),
+            text="🤓 About me", callback_data="aboutmanu"),
     
     ],
     [
@@ -383,11 +383,11 @@ def LEGEND_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You know I'm a next generational group management bot Developed by @LEGENDX22.* "
-            f"\n\n 🔥 Join [OUR UPDATES CHANNEL](https://t.me/SuneoAndLucarioUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You know I'm a next generational anime themed group management bot.* "
+            f"\n\n 🔥 Join [UPDATES CHANNEL](https://t.me/SuneoAndLucarioUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the Gbanning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/4233b9a65aadbdf2cd682.jpg)"
-            f"\n\n👇 To get the source code of this bot use /repo or [press me](https://github.com/deepanshu143/suneo) 👇",
+            f"\n\n I am based on [SaitamaRobot](https://GitHub.com/Animekaizoku/SaitamaRobot) and I am fully open source"
+            f"\n\n 👨‍💻 To get the source code of me [press here](https://github.com/deepanshu143/suneo) ",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
