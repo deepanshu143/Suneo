@@ -98,13 +98,13 @@ buttons = [
 
 
 InlineKeyboardButton(
-            text="🐱 SUPPORT", url="https://t.me/SuneoAndLucarioUpdates"
+            text="🗄️ Source", url="https://GitHub.com/deepanshu143/Suneo"
         ),
 
     ],
     [
         InlineKeyboardButton(
-                    text="🗄️ Source Code", url="https://github.com/Deepanshu143/Suneo"
+                    text="🔥 My Master", url="https://t.me/MTY_IZ"
         ),
     ],
 ]
