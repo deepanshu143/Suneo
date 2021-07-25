@@ -15,6 +15,44 @@ import re, os
 from LEGEND.events import register
 from LEGEND import telethn as tbot
 from LEGEND import telethn as tgbot
+
+import html
+import re, os
+import importlib
+import json
+import re
+import os, sys
+import time
+import traceback
+from sys import argv
+from typing import Optional
+import os
+from telegram import (
+    Chat,
+    InlineKeyboardButton,
+    InlineKeyboardMarkup,
+    Message,
+    ParseMode,
+    Update,
+    User,
+)
+from telegram.error import (
+    BadRequest,
+    ChatMigrated,
+    NetworkError,
+    TelegramError,
+    TimedOut,
+    Unauthorized,
+)
+from telegram.ext import (
+    CallbackContext,
+    CallbackQueryHandler,
+    CommandHandler,
+    Filters,
+    MessageHandler,
+)
+from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
+from telegram.utils.helpers import escape_markdown
 PHOTO = "https://telegra.ph/file/3cc3e9ab5ff0456671ac4.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
@@ -39,7 +77,7 @@ async def callback_query_handler(event):
   PROBOYX = [[Button.url("REPO-SUNEO", "https://github.com/Deepanshu143/Suneo"), Button.url("REPO-ULTRA-X", "https://github.com/ULTRA-OP/ULTRA-X")]]
   PROBOYX +=[[Button.url("DEPLOY-SUNEO", "https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fdeepanshu143%2FSuneo.git"), Button.url("DEPLOY-ULTRA-X", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FULTRA-OP%2FHEROKU&template=https%3A%2F%2Fgithub.com%2FULTRA-OP%2FHEROKU")]]
   PROBOYX +=[[Button.url("TUTORIAL", "https://youtu.be/rGCSSFPsS4Q"), Button.url("STRING-SESSION", "https://repl.it/@legendx22/LEGEND-BOT#main.py")]]
-  PROBOYX +=[[Button.url("API_ID & HASH", "https://t.me/usetgxbot"), Button.url("REDIS", "https://redislabs.com")]]
+  PROBOYX +=[[Button.url("API_ID & HASH", "https://t.me/usetgxbot"), Button.url("MONGO", "https://mongodb.com")]]
   PROBOYX +=[[Button.url("SUPPORT CHANNEL", "https://t.me/LEGENDBOT_OFFICIAL"), Button.url("SUPPORT GROUP", "https://t.me/LEGEND_USERBOT_SUPPORT")]]
   PROBOYX +=[[custom.Button.inline("ALIVE", data="PROBOY")]]
   await event.edit(text=f"ALL DETAILS OF REPOS", buttons=PROBOYX)
@@ -64,7 +102,16 @@ async def callback_query_handler(event):
 
 @register(pattern=("/repo|/REPO"))
 async def repo(event):
-  await tbot.send_message(event.chat, "REPO OF SUNEO MANAGER", buttons=[[Button.url("⚜️REPO⚜️", "https://github.com/deepanshu143/Suneo")]])
+  await tbot.send_message(event.chat, "REPO OF SUNEO MANAGER", buttons=[[Button.url(callback_data="repode_")]])
+  
+  
+  
+  @run_async
+def LEGEND_about_callback(update, context):
+    query = update.callback_query
+    if query.data == "repode_":
+        query.message.reply_text(
+            text="use it wisely https://github.com/deepanshu143/suneo"
 # PROBOYX 🔥 LEGENDX22
 
 __help__ = """
