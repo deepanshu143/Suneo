@@ -15,44 +15,6 @@ import re, os
 from LEGEND.events import register
 from LEGEND import telethn as tbot
 from LEGEND import telethn as tgbot
-
-import html
-import re, os
-import importlib
-import json
-import re
-import os, sys
-import time
-import traceback
-from sys import argv
-from typing import Optional
-import os
-from telegram import (
-    Chat,
-    InlineKeyboardButton,
-    InlineKeyboardMarkup,
-    Message,
-    ParseMode,
-    Update,
-    User,
-)
-from telegram.error import (
-    BadRequest,
-    ChatMigrated,
-    NetworkError,
-    TelegramError,
-    TimedOut,
-    Unauthorized,
-)
-from telegram.ext import (
-    CallbackContext,
-    CallbackQueryHandler,
-    CommandHandler,
-    Filters,
-    MessageHandler,
-)
-from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
-from telegram.utils.helpers import escape_markdown
 PHOTO = "https://telegra.ph/file/3cc3e9ab5ff0456671ac4.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
@@ -102,16 +64,7 @@ async def callback_query_handler(event):
 
 @register(pattern=("/repo|/REPO"))
 async def repo(event):
-  await tbot.send_message(event.chat, "REPO OF SUNEO MANAGER", buttons=[[Button.url(callback_data="repode_")]])
-  
-  
-  
-  @run_async
-def LEGEND_about_callback(update, context):
-    query = update.callback_query
-    if query.data == "repode_":
-        query.message.reply_text(
-            text="use it wisely https://github.com/deepanshu143/suneo"
+  await tbot.send_message(event.chat, "REPO OF SUNEO MANAGER", buttons=[[Button.url("Https://GitHub.com/deepansgu143/suneo")]])
 # PROBOYX 🔥 LEGENDX22
 
 __help__ = """
