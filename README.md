@@ -1,1 +1,1 @@
-# Closed
+# Closed 🙂
